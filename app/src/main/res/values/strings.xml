@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Six!</string>
+    <string name="app_header">One Day Intl. Cricket 🏏</string>
+    <string name="overs_remaining">Over(s) Remaining: ⚾</string>
+</resources>

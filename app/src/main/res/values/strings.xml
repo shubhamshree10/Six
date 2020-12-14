@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Six!</string>
-    <string name="app_header">One Day Intl. Cricket 🏏</string>
+    <string name="app_header">ODI Cricket 🏏</string>
     <string name="overs_remaining">Over(s) Remaining: ⚾</string>
+    <string name="rem_runs">Runs Required</string>
+    <string name="run_rate">Required Run Rate:</string>
+    <string name="target_score">200</string>
 </resources>

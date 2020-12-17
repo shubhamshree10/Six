@@ -10,21 +10,24 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="casual"
+        android:background="#F0F2F8"
+        android:fontFamily="@font/faster_one"
+        android:gravity="bottom|center"
         android:text="@string/app_header"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintVertical_bias="0.047" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="44dp"
         android:text="@string/overs_remaining"
         app:layout_constraintEnd_toStartOf="@+id/days_remaining"
@@ -36,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="55dp"
+        android:layout_marginTop="32dp"
         android:text="TextView"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -46,10 +49,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="86dp"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="44dp"
         android:text="@string/rem_runs"
         app:layout_constraintEnd_toStartOf="@+id/runs"
+        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -57,8 +61,8 @@
         android:id="@+id/runs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="46dp"
-        android:layout_marginEnd="107dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="104dp"
         android:text="200"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/days_remaining" />
@@ -67,11 +71,12 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="89dp"
-        android:layout_marginTop="46dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="44dp"
         android:text="@string/run_rate"
         app:layout_constraintEnd_toStartOf="@+id/req_run_rate"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/remaining_runs" />
 
@@ -79,9 +84,11 @@
         android:id="@+id/req_run_rate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="46dp"
-        android:layout_marginEnd="86dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="76dp"
+        android:fontFamily="@font/amaranth_bold_italic"
         android:text="RRR"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/runs" />
 
@@ -89,8 +96,8 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="48dp"
         android:text="Total Runs Scored"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -100,17 +107,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="124dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginBottom="17dp"
+        android:fontFamily="@font/knewave"
         android:text="0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_minus"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_plus"
         android:layout_width="77dp"
         android:layout_height="40dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="88dp"
+        android:backgroundTint="#00C853"
         android:text="+1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
@@ -119,52 +129,26 @@
         android:id="@+id/button_minus"
         android:layout_width="77dp"
         android:layout_height="40dp"
-        android:layout_marginStart="81dp"
-        android:layout_marginTop="148dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="72dp"
         android:layout_marginEnd="68dp"
+        android:backgroundTint="#C51162"
         android:text="-1"
         app:layout_constraintEnd_toStartOf="@+id/button_plus"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-    <SeekBar
-        android:id="@+id/seekBar"
-        style="@style/Widget.AppCompat.SeekBar.Discrete"
-        android:layout_width="256dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginBottom="24dp"
-        android:max="10"
-        android:progress="3"
-        app:layout_constraintBottom_toTopOf="@+id/button_plus"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/run_scored" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="142dp"
-        android:layout_marginTop="78dp"
-        android:layout_marginEnd="143dp"
-        android:layout_marginBottom="115dp"
-        android:text="Graphs and Daily entry"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/seekBar" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="37dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="42dp"
         android:layout_marginEnd="123dp"
         android:text="Target"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/req_run_rate" />
 
@@ -173,10 +157,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="109dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="28dp"
         android:layout_marginEnd="110dp"
         android:text="200"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
         app:layout_constraintStart_toEndOf="@+id/run_scored"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -184,12 +169,750 @@
         android:id="@+id/divider"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        android:background="?android:attr/listDivider"
+        android:background="#C1C0C0"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="430dp"
+        android:background="#FEDAFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60px"
+            android:orientation="vertical">
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="220dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="cursive"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="20px"
+                    android:text="Daily Entry"
+                    android:textAlignment="textEnd"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="142dp" />
+
+                <Button
+                    android:id="@+id/saveBtn"
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="100px"
+                    android:backgroundTint="#00BFA5"
+                    android:insetLeft="6dp"
+                    android:insetRight="6dp"
+                    android:text="Save" />
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t16"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="16 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num16"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t17"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="17 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num17"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t18"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="18 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num18"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t19"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="19 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num19"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t20"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="20 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num20"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t21"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="21 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num21"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t22"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="22 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num22"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t23"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="23 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num23"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t24"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="24 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num24"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t25"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="25 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num25"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t26"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="26 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num26"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t27"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="27 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num27"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t28"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="28 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num28"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t29"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="29 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num29"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t30"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="30 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num30"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t31"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="31 Dec"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num31"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="1 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num1"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="2 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num2"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="3 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num3"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t4"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="4 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num4"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t5"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="5 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num5"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t6"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="6 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num6"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t7"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="7 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num7"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t8"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="8 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num8"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t9"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="9 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num9"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t10"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="10 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num10"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t11"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="11 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num11"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t12"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="12 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num12"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t13"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="13 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num13"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t14"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="14 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num14"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t15"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="15 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num15"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

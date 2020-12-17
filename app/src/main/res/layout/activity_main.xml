@@ -85,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="31dp"
-        android:layout_marginEnd="76dp"
+        android:layout_marginEnd="73dp"
         android:fontFamily="@font/amaranth_bold_italic"
         android:text="RRR"
         android:textSize="18sp"
@@ -96,17 +96,17 @@
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="73dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="24dp"
         android:text="Total Runs Scored"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
 
     <TextView
         android:id="@+id/run_scored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="124dp"
+        android:layout_marginStart="74dp"
         android:layout_marginBottom="17dp"
         android:fontFamily="@font/knewave"
         android:text="0"
@@ -119,7 +119,7 @@
         android:layout_width="77dp"
         android:layout_height="40dp"
         android:layout_marginTop="72dp"
-        android:layout_marginEnd="88dp"
+        android:layout_marginEnd="193dp"
         android:backgroundTint="#00C853"
         android:text="+1"
         app:layout_constraintEnd_toEndOf="parent"
@@ -129,41 +129,12 @@
         android:id="@+id/button_minus"
         android:layout_width="77dp"
         android:layout_height="40dp"
-        android:layout_marginStart="95dp"
+        android:layout_marginStart="25dp"
         android:layout_marginTop="72dp"
-        android:layout_marginEnd="68dp"
         android:backgroundTint="#C51162"
         android:text="-1"
-        app:layout_constraintEnd_toStartOf="@+id/button_plus"
-        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="74dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="123dp"
-        android:text="Target"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
-        app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/req_run_rate" />
-
-    <TextView
-        android:id="@+id/target_score"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="109dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="110dp"
-        android:text="200"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.638"
-        app:layout_constraintStart_toEndOf="@+id/run_scored"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <View
         android:id="@+id/divider"
@@ -208,10 +179,9 @@
 
                 <TextView
                     android:id="@+id/textView9"
-                    android:layout_width="220dp"
-                    android:layout_height="40dp"
+                    android:layout_width="221dp"
+                    android:layout_height="43dp"
                     android:fontFamily="cursive"
-                    android:lineSpacingExtra="8sp"
                     android:paddingTop="20px"
                     android:text="Daily Entry"
                     android:textAlignment="textEnd"
@@ -227,6 +197,7 @@
                     android:backgroundTint="#00BFA5"
                     android:insetLeft="6dp"
                     android:insetRight="6dp"
+                    android:onClick="Save"
                     android:text="Save" />
             </androidx.gridlayout.widget.GridLayout>
 
@@ -914,5 +885,52 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="95dp"
+        android:text="This Over"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider" />
+
+    <TextView
+        android:id="@+id/currOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="@font/amaranth_bold_italic"
+        android:text="0"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/reset"
+        app:layout_constraintEnd_toStartOf="@+id/onePlus" />
+
+    <Button
+        android:id="@+id/onePlus"
+        android:layout_width="41dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:backgroundTint="#536353"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:text="1+"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="23dp"
+        android:backgroundTint="#675959"
+        android:text="Reset"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

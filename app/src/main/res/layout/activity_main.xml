@@ -206,138 +206,6 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/t16"
-                    android:layout_width="230dp"
-                    android:layout_height="wrap_content"
-                    android:text="16 Dec"
-                    android:textAlignment="center" />
-
-                <EditText
-                    android:id="@+id/num16"
-                    android:layout_width="53dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:text="0"
-                    android:textAlignment="center" />
-
-            </androidx.gridlayout.widget.GridLayout>
-
-            <androidx.gridlayout.widget.GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/t17"
-                    android:layout_width="230dp"
-                    android:layout_height="wrap_content"
-                    android:text="17 Dec"
-                    android:textAlignment="center" />
-
-                <EditText
-                    android:id="@+id/num17"
-                    android:layout_width="53dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:text="0"
-                    android:textAlignment="center" />
-
-            </androidx.gridlayout.widget.GridLayout>
-
-            <androidx.gridlayout.widget.GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/t18"
-                    android:layout_width="230dp"
-                    android:layout_height="wrap_content"
-                    android:text="18 Dec"
-                    android:textAlignment="center" />
-
-                <EditText
-                    android:id="@+id/num18"
-                    android:layout_width="53dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:text="0"
-                    android:textAlignment="center" />
-
-            </androidx.gridlayout.widget.GridLayout>
-
-            <androidx.gridlayout.widget.GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/t19"
-                    android:layout_width="230dp"
-                    android:layout_height="wrap_content"
-                    android:text="19 Dec"
-                    android:textAlignment="center" />
-
-                <EditText
-                    android:id="@+id/num19"
-                    android:layout_width="53dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:text="0"
-                    android:textAlignment="center" />
-
-            </androidx.gridlayout.widget.GridLayout>
-
-            <androidx.gridlayout.widget.GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/t20"
-                    android:layout_width="230dp"
-                    android:layout_height="wrap_content"
-                    android:text="20 Dec"
-                    android:textAlignment="center" />
-
-                <EditText
-                    android:id="@+id/num20"
-                    android:layout_width="53dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:text="0"
-                    android:textAlignment="center" />
-
-            </androidx.gridlayout.widget.GridLayout>
-
-            <androidx.gridlayout.widget.GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
-                    android:id="@+id/t21"
-                    android:layout_width="230dp"
-                    android:layout_height="wrap_content"
-                    android:text="21 Dec"
-                    android:textAlignment="center" />
-
-                <EditText
-                    android:id="@+id/num21"
-                    android:layout_width="53dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="text"
-                    android:text="0"
-                    android:textAlignment="center" />
-
-            </androidx.gridlayout.widget.GridLayout>
-
-            <androidx.gridlayout.widget.GridLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <TextView
                     android:id="@+id/t22"
                     android:layout_width="230dp"
                     android:layout_height="wrap_content"
@@ -874,6 +742,138 @@
 
                 <EditText
                     android:id="@+id/num15"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t16"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="16 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num16"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t17"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="17 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num17"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t18"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="18 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num18"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t19"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="19 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num19"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t20"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="20 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num20"
+                    android:layout_width="53dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:text="0"
+                    android:textAlignment="center" />
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/t21"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:text="21 Jan"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/num21"
                     android:layout_width="53dp"
                     android:layout_height="wrap_content"
                     android:ems="10"

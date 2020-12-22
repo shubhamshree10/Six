@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
         if (sharedPreferences.contains(pref15)){ num15.setText(sharedPreferences.getString(pref15, ""));}
 
         LocalDate start_date = LocalDate.now(); ;
-        LocalDate end_date = LocalDate.of(2021, 1, 15);
+        LocalDate end_date = LocalDate.of(2021, 1, 22);
         findDifference(start_date,end_date);
         count = settings.getInt("count",count) ;
         dailyCount = settings2.getInt("dailyCount",dailyCount) ;

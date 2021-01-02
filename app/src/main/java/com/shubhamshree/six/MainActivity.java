@@ -29,7 +29,16 @@ public class MainActivity extends AppCompatActivity {
             num25 ,num26 ,num27 ,num28 ,num29 ,
             num30 ,num31 ,num1 ,num2 ,num3 ,
             num4 ,num5 ,num6 ,num7 ,num8 ,
-            num9 ,num10 ,num11 ,num12 ,num13, currOver  ;
+            num9 ,num10 ,num11 ,num12 ,num13,
+            num516,
+            num517 ,num518 ,num519 ,num514 ,num515,
+            num520 ,num521 ,num522 ,num523 ,num524 ,
+            num525 ,num526 ,num527 ,num528 ,num529 ,
+            num530 ,num531 ,num51 ,num52 ,num53 ,
+            num54 ,num55 ,num56 ,num57 ,num58 ,
+            num59 ,num510 ,num511 ,num512 ,num513,
+            num622 ,num623 ,num624 ,
+            num625 ,num626 ,num627 ,num628 ,currOver  ;
     SharedPreferences sharedPreferences ;
 
     public static final String PREFS_NAME = "SixDataFile";
@@ -65,6 +74,46 @@ public class MainActivity extends AppCompatActivity {
     public static final String pref13 = "13key";
     public static final String pref14 = "14key";
     public static final String pref15 = "15key";
+
+    public static final String pref516 = "516key";
+    public static final String pref517 = "517key" ;
+    public static final String pref518 = "518key" ;
+    public static final String pref519 = "519key" ;
+    public static final String pref520 = "520key" ;
+    public static final String pref521 = "521key" ;
+    public static final String pref522 = "522key" ;
+    public static final String pref523 = "523key" ;
+    public static final String pref524 = "524key" ;
+    public static final String pref525 = "525key" ;
+    public static final String pref526 = "526key" ;
+    public static final String pref527 = "527key" ;
+    public static final String pref528 = "528key" ;
+    public static final String pref529 = "529key" ;
+    public static final String pref530 = "530key";
+    public static final String pref531 = "531key" ;
+    public static final String pref51  = "51key" ;
+    public static final String pref52  = "52key" ;
+    public static final String pref53  = "53key" ;
+    public static final String pref54  = "54key";
+    public static final String pref55  = "55key";
+    public static final String pref56  = "56key";
+    public static final String pref57  = "57key";
+    public static final String pref58  = "58key";
+    public static final String pref59  = "59key";
+    public static final String pref510 = "510key";
+    public static final String pref511 = "511key";
+    public static final String pref512 = "512key";
+    public static final String pref513 = "513key";
+    public static final String pref514 = "514key";
+    public static final String pref515 = "515key";
+
+    public static final String pref622 = "622key" ;
+    public static final String pref623 = "623key" ;
+    public static final String pref624 = "624key" ;
+    public static final String pref625 = "625key" ;
+    public static final String pref626 = "626key" ;
+    public static final String pref627 = "627key" ;
+    public static final String pref628 = "628key" ;
 
     void findDifference(LocalDate start_date,LocalDate end_date)
     {
@@ -127,6 +176,46 @@ public class MainActivity extends AppCompatActivity {
           num14 = findViewById(R.id.num14);
           num15 = findViewById(R.id.num15);
 
+        num516=findViewById(R.id.num116);
+        num517 = findViewById(R.id.num117) ;
+        num518 = findViewById(R.id.num118) ;
+        num519 = findViewById(R.id.num119) ;
+        num520 = findViewById(R.id.num120) ;
+        num521 = findViewById(R.id.num121) ;
+        num522 = findViewById(R.id.num122) ;
+        num523 = findViewById(R.id.num123) ;
+        num524 = findViewById(R.id.num124) ;
+        num525 = findViewById(R.id.num125) ;
+        num526 = findViewById(R.id.num126) ;
+        num527 = findViewById(R.id.num127) ;
+        num528 = findViewById(R.id.num128) ;
+        num529 = findViewById(R.id.num129) ;
+        num530 = findViewById(R.id.num130);
+        num531 = findViewById(R.id.num131) ;
+        num51  = findViewById(R.id.num101) ;
+        num52  = findViewById(R.id.num102) ;
+        num53  = findViewById(R.id.num103) ;
+        num54  = findViewById(R.id.num104);
+        num55  = findViewById(R.id.num105);
+        num56  = findViewById(R.id.num106);
+        num57  = findViewById(R.id.num107);
+        num58  = findViewById(R.id.num108);
+        num59  = findViewById(R.id.num109);
+        num510 = findViewById(R.id.num110);
+        num511 = findViewById(R.id.num111);
+        num512 = findViewById(R.id.num112);
+        num513 = findViewById(R.id.num113);
+        num514 = findViewById(R.id.num114);
+        num515 = findViewById(R.id.num115);
+
+        num622 = findViewById(R.id.num222) ;
+        num623 = findViewById(R.id.num223) ;
+        num624 = findViewById(R.id.num224) ;
+        num625 = findViewById(R.id.num225) ;
+        num626 = findViewById(R.id.num226) ;
+        num627 = findViewById(R.id.num227) ;
+        num628 = findViewById(R.id.num228) ;
+
         sharedPreferences=getSharedPreferences(pref16, Context.MODE_PRIVATE);
         sharedPreferences=getSharedPreferences(pref17, Context.MODE_PRIVATE);
         sharedPreferences=getSharedPreferences(pref18, Context.MODE_PRIVATE);
@@ -159,9 +248,47 @@ public class MainActivity extends AppCompatActivity {
         sharedPreferences=getSharedPreferences(pref14, Context.MODE_PRIVATE);
         sharedPreferences=getSharedPreferences(pref15, Context.MODE_PRIVATE);
 
-        if (sharedPreferences.contains(pref16)){
-            num16.setText(sharedPreferences.getString(pref16,""));
-        }
+        sharedPreferences=getSharedPreferences(pref516, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref517, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref518, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref519, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref520, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref521, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref522, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref523, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref524, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref525, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref526, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref527, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref528, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref529, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref530, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref531, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref51 , Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref52 , Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref53 , Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref54 , Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref55 , Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref56 , Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref57 , Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref58 , Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref59 , Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref510, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref511, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref512, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref513, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref514, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref515, Context.MODE_PRIVATE);
+
+        sharedPreferences=getSharedPreferences(pref622, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref623, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref624, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref625, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref626, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref627, Context.MODE_PRIVATE);
+        sharedPreferences=getSharedPreferences(pref628, Context.MODE_PRIVATE);
+
+        if (sharedPreferences.contains(pref16)){ num16.setText(sharedPreferences.getString(pref16, ""));}
         if (sharedPreferences.contains(pref17)){ num17.setText(sharedPreferences.getString(pref17, ""));}
         if (sharedPreferences.contains(pref18)){ num18.setText(sharedPreferences.getString(pref18, ""));}
         if (sharedPreferences.contains(pref19)){ num19.setText(sharedPreferences.getString(pref19, ""));}
@@ -193,8 +320,48 @@ public class MainActivity extends AppCompatActivity {
         if (sharedPreferences.contains(pref14)){ num14.setText(sharedPreferences.getString(pref14, ""));}
         if (sharedPreferences.contains(pref15)){ num15.setText(sharedPreferences.getString(pref15, ""));}
 
+        if (sharedPreferences.contains(pref516)){ num516.setText(sharedPreferences.getString(pref516, ""));}
+        if (sharedPreferences.contains(pref517)){ num517.setText(sharedPreferences.getString(pref517, ""));}
+        if (sharedPreferences.contains(pref518)){ num518.setText(sharedPreferences.getString(pref518, ""));}
+        if (sharedPreferences.contains(pref519)){ num519.setText(sharedPreferences.getString(pref519, ""));}
+        if (sharedPreferences.contains(pref520)){ num520.setText(sharedPreferences.getString(pref520, ""));}
+        if (sharedPreferences.contains(pref521)){ num521.setText(sharedPreferences.getString(pref521, ""));}
+        if (sharedPreferences.contains(pref522)){ num522.setText(sharedPreferences.getString(pref522, ""));}
+        if (sharedPreferences.contains(pref523)){ num523.setText(sharedPreferences.getString(pref523, ""));}
+        if (sharedPreferences.contains(pref524)){ num524.setText(sharedPreferences.getString(pref524, ""));}
+        if (sharedPreferences.contains(pref525)){ num525.setText(sharedPreferences.getString(pref525, ""));}
+        if (sharedPreferences.contains(pref526)){ num526.setText(sharedPreferences.getString(pref526, ""));}
+        if (sharedPreferences.contains(pref527)){ num527.setText(sharedPreferences.getString(pref527, ""));}
+        if (sharedPreferences.contains(pref528)){ num528.setText(sharedPreferences.getString(pref528, ""));}
+        if (sharedPreferences.contains(pref529)){ num529.setText(sharedPreferences.getString(pref529, ""));}
+        if (sharedPreferences.contains(pref530)){ num530.setText(sharedPreferences.getString(pref530, ""));}
+        if (sharedPreferences.contains(pref531)){ num531.setText(sharedPreferences.getString(pref531, ""));}
+        if (sharedPreferences.contains(pref51)){ num51.setText(sharedPreferences.getString(pref51, ""));}
+        if (sharedPreferences.contains(pref52)){ num52.setText(sharedPreferences.getString(pref52, ""));}
+        if (sharedPreferences.contains(pref53)){ num53.setText(sharedPreferences.getString(pref53, ""));}
+        if (sharedPreferences.contains(pref54)){ num54.setText(sharedPreferences.getString(pref54, ""));}
+        if (sharedPreferences.contains(pref55)){ num55.setText(sharedPreferences.getString(pref55, ""));}
+        if (sharedPreferences.contains(pref56)){ num56.setText(sharedPreferences.getString(pref56, ""));}
+        if (sharedPreferences.contains(pref57)){ num57.setText(sharedPreferences.getString(pref57, ""));}
+        if (sharedPreferences.contains(pref58)){ num58.setText(sharedPreferences.getString(pref58, ""));}
+        if (sharedPreferences.contains(pref59)){ num59.setText(sharedPreferences.getString(pref59, ""));}
+        if (sharedPreferences.contains(pref510)){ num510.setText(sharedPreferences.getString(pref510, ""));}
+        if (sharedPreferences.contains(pref511)){ num511.setText(sharedPreferences.getString(pref511, ""));}
+        if (sharedPreferences.contains(pref512)){ num512.setText(sharedPreferences.getString(pref512, ""));}
+        if (sharedPreferences.contains(pref513)){ num513.setText(sharedPreferences.getString(pref513, ""));}
+        if (sharedPreferences.contains(pref514)){ num514.setText(sharedPreferences.getString(pref514, ""));}
+        if (sharedPreferences.contains(pref515)){ num515.setText(sharedPreferences.getString(pref515, ""));}
+
+        if (sharedPreferences.contains(pref622)){ num622.setText(sharedPreferences.getString(pref622, ""));}
+        if (sharedPreferences.contains(pref623)){ num623.setText(sharedPreferences.getString(pref623, ""));}
+        if (sharedPreferences.contains(pref624)){ num624.setText(sharedPreferences.getString(pref624, ""));}
+        if (sharedPreferences.contains(pref625)){ num625.setText(sharedPreferences.getString(pref625, ""));}
+        if (sharedPreferences.contains(pref626)){ num626.setText(sharedPreferences.getString(pref626, ""));}
+        if (sharedPreferences.contains(pref627)){ num627.setText(sharedPreferences.getString(pref627, ""));}
+        if (sharedPreferences.contains(pref628)){ num628.setText(sharedPreferences.getString(pref628, ""));}
+
         LocalDate start_date = LocalDate.now(); ;
-        LocalDate end_date = LocalDate.of(2021, 1, 22);
+        LocalDate end_date = LocalDate.of(2021, 3, 1);
         findDifference(start_date,end_date);
         count = settings.getInt("count",count) ;
         dailyCount = settings2.getInt("dailyCount",dailyCount) ;
@@ -283,6 +450,46 @@ public class MainActivity extends AppCompatActivity {
         String n13 = num13.getText().toString();
         String n14 = num14.getText().toString();
         String n15 = num15.getText().toString();
+
+        String n516 = num516.getText().toString();
+        String n517 = num517.getText().toString() ;
+        String n518 = num518.getText().toString() ;
+        String n519 = num519.getText().toString() ;
+        String n520 = num520.getText().toString() ;
+        String n521 = num521.getText().toString() ;
+        String n522 = num522.getText().toString() ;
+        String n523 = num523.getText().toString() ;
+        String n524 = num524.getText().toString() ;
+        String n525 = num525.getText().toString() ;
+        String n526 = num526.getText().toString() ;
+        String n527 = num527.getText().toString() ;
+        String n528 = num528.getText().toString() ;
+        String n529 = num529.getText().toString() ;
+        String n530 = num530.getText().toString();
+        String n531 = num531.getText().toString() ;
+        String n51  = num51.getText().toString() ;
+        String n52  = num52.getText().toString() ;
+        String n53  = num53.getText().toString() ;
+        String n54  = num54.getText().toString();
+        String n55  = num55.getText().toString();
+        String n56  = num56.getText().toString();
+        String n57  = num57.getText().toString();
+        String n58  = num58.getText().toString();
+        String n59  = num59.getText().toString();
+        String n510 = num510.getText().toString();
+        String n511 = num511.getText().toString();
+        String n512 = num512.getText().toString();
+        String n513 = num513.getText().toString();
+        String n514 = num514.getText().toString();
+        String n515 = num515.getText().toString();
+
+        String n622 = num622.getText().toString() ;
+        String n623 = num623.getText().toString() ;
+        String n624 = num624.getText().toString() ;
+        String n625 = num625.getText().toString() ;
+        String n626 = num626.getText().toString() ;
+        String n627 = num627.getText().toString() ;
+        String n628 = num628.getText().toString() ;
         SharedPreferences.Editor editor = sharedPreferences.edit();
 
         editor.putString(pref16, n16);
@@ -316,6 +523,46 @@ public class MainActivity extends AppCompatActivity {
         editor.putString(pref13 , n13);
         editor.putString(pref14 , n14);
         editor.putString(pref15 , n15);
+
+        editor.putString(pref516 , n516);
+        editor.putString(pref517 , n517) ;
+        editor.putString(pref518 , n518) ;
+        editor.putString(pref519 , n519) ;
+        editor.putString(pref520 , n520) ;
+        editor.putString(pref521 , n521) ;
+        editor.putString(pref522 , n522) ;
+        editor.putString(pref523 , n523) ;
+        editor.putString(pref524 , n524) ;
+        editor.putString(pref525 , n525) ;
+        editor.putString(pref526 , n526) ;
+        editor.putString(pref527 , n527) ;
+        editor.putString(pref528 , n528) ;
+        editor.putString(pref529 , n529) ;
+        editor.putString(pref530 , n530);
+        editor.putString(pref531 , n531) ;
+        editor.putString(pref51  , n51) ;
+        editor.putString(pref52  , n52) ;
+        editor.putString(pref53  , n53) ;
+        editor.putString(pref54  , n54);
+        editor.putString(pref55  , n55);
+        editor.putString(pref56  , n56);
+        editor.putString(pref57  , n57);
+        editor.putString(pref58  , n58);
+        editor.putString(pref59  , n59);
+        editor.putString(pref510 , n510);
+        editor.putString(pref511 , n511);
+        editor.putString(pref512 , n512);
+        editor.putString(pref513 , n513);
+        editor.putString(pref514 , n514);
+        editor.putString(pref515 , n515);
+
+        editor.putString(pref622 , n622) ;
+        editor.putString(pref623 , n623) ;
+        editor.putString(pref624 , n624) ;
+        editor.putString(pref625 , n625) ;
+        editor.putString(pref626 , n626) ;
+        editor.putString(pref627 , n627) ;
+        editor.putString(pref628 , n628) ;
         editor.commit();
     }
 }

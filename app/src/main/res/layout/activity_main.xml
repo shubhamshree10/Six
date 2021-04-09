@@ -120,7 +120,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="193dp"
-        android:backgroundTint="#00C853"
+        android:backgroundTint="#C89600"
         android:text="+1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
@@ -131,7 +131,7 @@
         android:layout_height="40dp"
         android:layout_marginStart="25dp"
         android:layout_marginTop="72dp"
-        android:backgroundTint="#C51162"
+        android:backgroundTint="#2C11C5"
         android:text="-1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
@@ -163,6 +163,7 @@
         android:layout_height="match_parent"
         android:layout_marginTop="390dp"
         android:background="#FEDAFF"
+        android:backgroundTint="#2F7CDCD4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -1750,7 +1751,7 @@
         android:layout_height="51dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="44dp"
-        android:backgroundTint="#536353"
+        android:backgroundTint="#D8C358D3"
         android:insetTop="0dp"
         android:insetBottom="0dp"
         android:text="1+"
@@ -1763,7 +1764,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="73dp"
         android:layout_marginBottom="21dp"
-        android:backgroundTint="#675959"
+        android:backgroundTint="#68BAC1"
         android:text="Reset"
         app:layout_constraintBottom_toTopOf="@+id/divider2"
         app:layout_constraintEnd_toEndOf="parent" />

@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Six!</string>
+    <string name="app_name">Gooaaal ⚽</string>
     <string name="app_header">6 Goals 🎯</string>
-    <string name="overs_remaining">Day(s) Remaining: ⚾</string>
+    <string name="overs_remaining">Day(s) Remaining: 📅</string>
     <string name="rem_runs">Points Required:</string>
     <string name="run_rate">Required Scoring Rate:</string>
     <string name="target_score">242</string>

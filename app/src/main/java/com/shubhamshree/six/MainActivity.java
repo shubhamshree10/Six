@@ -121,9 +121,9 @@ public class MainActivity extends AppCompatActivity {
         noOfDaysBetween = ChronoUnit.DAYS.between(start_date, end_date);
         String overs;
         if(noOfDaysBetween>1) {
-             overs = " Overs";}
+             overs = " Days";}
         else{
-             overs = " Over";}
+             overs = " Day";}
         difference =  Long.toString(noOfDaysBetween) + overs ;
         TextView textViewDate = findViewById(R.id.days_remaining);
         textViewDate.setText(difference);

@@ -361,27 +361,27 @@ public class MainActivity extends AppCompatActivity {
         if (sharedPreferences.contains(pref628)){ num628.setText(sharedPreferences.getString(pref628, ""));}
 
         LocalDate start_date = LocalDate.now(); ;
-        LocalDate end_date = LocalDate.of(2021, 3, 1);
+        LocalDate end_date = LocalDate.of(2021, 6, 15);
         findDifference(start_date,end_date);
         count = settings.getInt("count",count) ;
         dailyCount = settings2.getInt("dailyCount",dailyCount) ;
 
-        int rek = 200 - count;
+        int rek = 242 - count;
         float rrk = (float)rek/(float)noOfDaysBetween;
         double roundOfk = (double) Math.round(rrk * 100) / 100;
-        run_scored.setText(Integer.toString(count)+"/200");
+        run_scored.setText(Integer.toString(count)+"/242");
         runs.setText(Integer.toString(rek));
-        req_run_rate.setText(Double.toString(roundOfk) + "/Over");
+        req_run_rate.setText(Double.toString(roundOfk) + "/Day");
         currOver.setText(Integer.toString(dailyCount));
 
         button_plus.setOnClickListener(view -> {
             count++;
-            int req = 200 - count;
+            int req = 242 - count;
             float rrr = (float)req/(float)noOfDaysBetween;
             double roundOff = (double) Math.round(rrr * 100) / 100;
-            run_scored.setText(Integer.toString(count)+"/200");
+            run_scored.setText(Integer.toString(count)+"/242");
             runs.setText(Integer.toString(req));
-            req_run_rate.setText(Double.toString(roundOff) + "/Over");
+            req_run_rate.setText(Double.toString(roundOff) + "/Day");
 
             SharedPreferences.Editor editor = settings.edit() ;
             editor.putInt("count",count);
@@ -405,12 +405,12 @@ public class MainActivity extends AppCompatActivity {
         });
         button_minus.setOnClickListener(view -> {
             count--;
-            int req = 200 - count;
+            int req = 242 - count;
             float rrr = (float)req/(float)noOfDaysBetween;
             double roundOff = (double) Math.round(rrr * 100) / 100;
-            run_scored.setText(Integer.toString(count)+"/200");
+            run_scored.setText(Integer.toString(count)+"/242");
             runs.setText(Integer.toString(req));
-            req_run_rate.setText(Double.toString(roundOff)+ "/Over");
+            req_run_rate.setText(Double.toString(roundOff)+ "/Day");
 
             SharedPreferences.Editor editor = settings.edit() ;
             editor.putInt("count",count);

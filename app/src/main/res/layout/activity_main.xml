@@ -180,7 +180,7 @@
 
                 <TextView
                     android:id="@+id/textView9"
-                    android:layout_width="238dp"
+                    android:layout_width="218dp"
                     android:layout_height="match_parent"
                     android:fontFamily="cursive"
                     android:paddingTop="20px"
@@ -194,7 +194,7 @@
                     android:id="@+id/saveBtn"
                     android:layout_width="90dp"
                     android:layout_height="40dp"
-                    android:layout_marginLeft="100px"
+                    android:layout_marginLeft="130px"
                     android:backgroundTint="#00BFA5"
                     android:insetLeft="6dp"
                     android:insetRight="6dp"
@@ -208,14 +208,14 @@
 
                 <TextView
                     android:id="@+id/t22"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="7 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num22"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -230,14 +230,14 @@
 
                 <TextView
                     android:id="@+id/t23"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="8 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num23"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -252,14 +252,14 @@
 
                 <TextView
                     android:id="@+id/t24"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="9 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num24"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -274,14 +274,14 @@
 
                 <TextView
                     android:id="@+id/t25"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="10 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num25"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -296,14 +296,14 @@
 
                 <TextView
                     android:id="@+id/t26"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="11 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num26"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -318,14 +318,14 @@
 
                 <TextView
                     android:id="@+id/t27"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="12 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num27"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -340,14 +340,14 @@
 
                 <TextView
                     android:id="@+id/t28"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="13 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num28"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -362,14 +362,14 @@
 
                 <TextView
                     android:id="@+id/t29"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="14 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num29"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -384,14 +384,14 @@
 
                 <TextView
                     android:id="@+id/t30"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="15 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num30"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -406,14 +406,14 @@
 
                 <TextView
                     android:id="@+id/t31"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="16 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num31"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -428,14 +428,14 @@
 
                 <TextView
                     android:id="@+id/t1"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="17 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num1"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -450,14 +450,14 @@
 
                 <TextView
                     android:id="@+id/t2"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="18 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num2"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -472,14 +472,14 @@
 
                 <TextView
                     android:id="@+id/t3"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="19 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num3"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -494,14 +494,14 @@
 
                 <TextView
                     android:id="@+id/t4"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="20 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num4"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -516,14 +516,14 @@
 
                 <TextView
                     android:id="@+id/t5"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="21 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num5"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -538,14 +538,14 @@
 
                 <TextView
                     android:id="@+id/t6"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="22 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num6"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -560,14 +560,14 @@
 
                 <TextView
                     android:id="@+id/t7"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="23 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num7"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -582,14 +582,14 @@
 
                 <TextView
                     android:id="@+id/t8"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="24 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num8"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -604,14 +604,14 @@
 
                 <TextView
                     android:id="@+id/t9"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="25 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num9"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -626,14 +626,14 @@
 
                 <TextView
                     android:id="@+id/t10"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="26 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num10"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -648,14 +648,14 @@
 
                 <TextView
                     android:id="@+id/t11"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="27 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num11"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -670,14 +670,14 @@
 
                 <TextView
                     android:id="@+id/t12"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="28 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num12"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -692,14 +692,14 @@
 
                 <TextView
                     android:id="@+id/t13"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="29 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num13"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -714,14 +714,14 @@
 
                 <TextView
                     android:id="@+id/t14"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="30 April"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num14"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -736,14 +736,14 @@
 
                 <TextView
                     android:id="@+id/t15"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="1 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num15"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -758,14 +758,14 @@
 
                 <TextView
                     android:id="@+id/t16"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="2 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num16"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -780,14 +780,14 @@
 
                 <TextView
                     android:id="@+id/t17"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="3 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num17"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -802,14 +802,14 @@
 
                 <TextView
                     android:id="@+id/t18"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="4 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num18"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -824,14 +824,14 @@
 
                 <TextView
                     android:id="@+id/t19"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="5 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num19"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -846,14 +846,14 @@
 
                 <TextView
                     android:id="@+id/t20"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="6 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num20"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -868,14 +868,14 @@
 
                 <TextView
                     android:id="@+id/t21"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="7 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num21"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -890,14 +890,14 @@
 
                 <TextView
                     android:id="@+id/t122"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="8 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num122"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -912,14 +912,14 @@
 
                 <TextView
                     android:id="@+id/t123"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="9 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num123"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -934,14 +934,14 @@
 
                 <TextView
                     android:id="@+id/t124"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="10 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num124"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -956,14 +956,14 @@
 
                 <TextView
                     android:id="@+id/t125"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="11 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num125"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -978,14 +978,14 @@
 
                 <TextView
                     android:id="@+id/t126"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="12 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num126"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1000,14 +1000,14 @@
 
                 <TextView
                     android:id="@+id/t127"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="13 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num127"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1022,14 +1022,14 @@
 
                 <TextView
                     android:id="@+id/t128"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="14 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num128"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1044,14 +1044,14 @@
 
                 <TextView
                     android:id="@+id/t129"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="15 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num129"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1066,14 +1066,14 @@
 
                 <TextView
                     android:id="@+id/t130"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="16 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num130"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1088,14 +1088,14 @@
 
                 <TextView
                     android:id="@+id/t131"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="17 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num131"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1110,14 +1110,14 @@
 
                 <TextView
                     android:id="@+id/t101"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="18 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num101"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1132,14 +1132,14 @@
 
                 <TextView
                     android:id="@+id/t102"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="19 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num102"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1154,14 +1154,14 @@
 
                 <TextView
                     android:id="@+id/t103"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="20 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num103"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1176,14 +1176,14 @@
 
                 <TextView
                     android:id="@+id/t104"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="21 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num104"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1198,14 +1198,14 @@
 
                 <TextView
                     android:id="@+id/t105"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="22 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num105"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1220,14 +1220,14 @@
 
                 <TextView
                     android:id="@+id/t106"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="23 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num106"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1242,14 +1242,14 @@
 
                 <TextView
                     android:id="@+id/t107"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="24 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num107"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1264,14 +1264,14 @@
 
                 <TextView
                     android:id="@+id/t108"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="25 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num108"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1286,14 +1286,14 @@
 
                 <TextView
                     android:id="@+id/t109"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="26 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num109"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1308,14 +1308,14 @@
 
                 <TextView
                     android:id="@+id/t110"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="27 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num110"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1330,14 +1330,14 @@
 
                 <TextView
                     android:id="@+id/t111"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="28 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num111"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1352,14 +1352,14 @@
 
                 <TextView
                     android:id="@+id/t112"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="29 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num112"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1374,14 +1374,14 @@
 
                 <TextView
                     android:id="@+id/t113"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="30 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num113"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1396,14 +1396,14 @@
 
                 <TextView
                     android:id="@+id/t114"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="31 May"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num114"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1418,14 +1418,14 @@
 
                 <TextView
                     android:id="@+id/t115"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="1 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num115"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1440,14 +1440,14 @@
 
                 <TextView
                     android:id="@+id/t116"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="2 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num116"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1462,14 +1462,14 @@
 
                 <TextView
                     android:id="@+id/t117"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="3 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num117"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1484,14 +1484,14 @@
 
                 <TextView
                     android:id="@+id/t118"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="4 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num118"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1506,14 +1506,14 @@
 
                 <TextView
                     android:id="@+id/t119"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="5 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num119"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1528,14 +1528,14 @@
 
                 <TextView
                     android:id="@+id/t120"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="6 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num120"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1550,14 +1550,14 @@
 
                 <TextView
                     android:id="@+id/t121"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="7 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num121"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1572,14 +1572,14 @@
 
                 <TextView
                     android:id="@+id/t222"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="8 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num222"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1594,14 +1594,14 @@
 
                 <TextView
                     android:id="@+id/t223"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="9 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num223"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1616,14 +1616,14 @@
 
                 <TextView
                     android:id="@+id/t224"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="10 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num224"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1638,14 +1638,14 @@
 
                 <TextView
                     android:id="@+id/t225"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="11 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num225"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1660,14 +1660,14 @@
 
                 <TextView
                     android:id="@+id/t226"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="12 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num226"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1682,14 +1682,14 @@
 
                 <TextView
                     android:id="@+id/t227"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="13 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num227"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
@@ -1704,14 +1704,14 @@
 
                 <TextView
                     android:id="@+id/t228"
-                    android:layout_width="230dp"
+                    android:layout_width="170dp"
                     android:layout_height="wrap_content"
                     android:text="14 June"
                     android:textAlignment="center" />
 
                 <EditText
                     android:id="@+id/num228"
-                    android:layout_width="53dp"
+                    android:layout_width="183dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="text"
